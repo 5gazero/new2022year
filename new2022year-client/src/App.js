@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+      style={{
+        // backgroundColor: "green",
+        width: "400px",
+        height: "800px",
+        backgroundImage:
+          "url('https://2022-01-newyear.s3.ap-northeast-2.amazonaws.com/bg_default.png')",
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+      }}
+    >
+      덕담 하나 주면 안 잡아 먹지!
     </div>
   );
 }
