@@ -6,7 +6,7 @@ function App() {
       <div className='title'>
         <h1>덕담 하나 주면 안 잡아 먹지!</h1>
         <p>
-          가영님이 받은 덕담: <span>6개</span>
+          가영님이 받은 덕담: <span>6개</span>
         </p>
       </div>
     </Container>
