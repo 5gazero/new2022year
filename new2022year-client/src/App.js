@@ -9,6 +9,14 @@ function App() {
           가영님이 받은 덕담: <span>6개</span>
         </p>
       </div>
+      <div class='box'>
+        <img
+          onClick={() => {
+            alert("새해복!");
+          }}
+          src='https://2022-01-newyear.s3.ap-northeast-2.amazonaws.com/object3.png'
+        />
+      </div>
       <div className='btn'>바구니에 덕담 남기기</div>
     </Container>
   );
@@ -30,7 +38,7 @@ const Container = styled.div`
     justify-content: center;
     align-items: center;
     padding-top: 5vh;
-    color: #3f3732
+    color: #3f3732;
   }
   h1 {
     font-size: 22px;
@@ -43,6 +51,14 @@ const Container = styled.div`
       span {
         font-size: 22px;
       }
+    }
+  }
+  .box {
+    img {
+      width: 70px;
+      position: absolute;
+      left: 50%;
+      bottom: 50%;
     }
   }
   .btn {
