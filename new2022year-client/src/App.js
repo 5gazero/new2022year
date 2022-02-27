@@ -12,7 +12,7 @@ function App() {
       <div class='box'>
         <img
           onClick={() => {
-            alert("새해복!");
+            alert("새해 복 많이 받으세요");
           }}
           src='https://2022-01-newyear.s3.ap-northeast-2.amazonaws.com/object3.png'
         />
@@ -32,7 +32,6 @@ const Container = styled.div`
   background-size: cover;
   margin: auto;
   .title {
-    /* background-color: green; */
     display: flex;
     flex-direction: column;
     justify-content: center;
