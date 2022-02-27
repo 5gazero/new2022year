@@ -9,6 +9,7 @@ function App() {
           가영님이 받은 덕담: <span>6개</span>
         </p>
       </div>
+      <div className='btn'>바구니에 덕담 남기기</div>
     </Container>
   );
 }
@@ -43,6 +44,22 @@ const Container = styled.div`
         font-size: 22px;
       }
     }
+  }
+  .btn {
+    width: 300px;
+    height: 50px;
+    background-color: #3f3732;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 16px;
+    left: calc(50% - 150px);
   }
 `;
 
